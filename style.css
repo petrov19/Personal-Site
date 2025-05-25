@@ -59,6 +59,7 @@ a.glow-link:hover {
 
 .background-image{
     height: 500px;
+
 }
 
 .contacts{
@@ -78,7 +79,7 @@ ul li{
     margin-right: 25px;
 }
 
- ul li img{
+ul li img{
     height: 30px;
 }
 
@@ -131,3 +132,27 @@ img:hover {
     transform: translateY(-5px);
 }
 
+@media (max-width: 850px) {
+    .short h1,
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+    .short p,
+    .text-box p {
+        font-size: 15px;
+    }
+
+    ul li img {
+        height: 25px;
+    }
+    .background-image{
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px){
+    .background-image{
+        height: 200px;
+    }
+}
