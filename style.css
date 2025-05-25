@@ -132,7 +132,25 @@ img:hover {
     transform: translateY(-5px);
 }
 
+#third{
+    padding-left: 100px;
+}
 @media (max-width: 850px) {
+    .main, .middle{
+        flex-direction: column;
+        height: 400px;
+    }
+    .dummy, .logo{
+        order:2;
+    }
+    .short, .text-box{
+        width:100%;
+        text-align: center;
+        order: 1;
+    }
+    #third{
+        padding:0px;
+    }
     .short h1,
     .text-box h1 {
         font-size: 30px;
@@ -146,12 +164,6 @@ img:hover {
     ul li img {
         height: 25px;
     }
-    .background-image{
-        height: 300px;
-    }
-}
-
-@media (max-width: 600px){
     .background-image{
         height: 200px;
     }
